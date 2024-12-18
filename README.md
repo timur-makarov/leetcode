@@ -1,9 +1,9 @@
-### Implementations:
+### Data structures and algorithms:
 - Linked List
 - 
  
 
-### Leetcode questions:
+### Leetcode problems:
 - Easy | Middle of the Linked List - [link](https://leetcode.com/problems/middle-of-the-linked-list/)
 - Easy | Linked List Cycle - [link](https://leetcode.com/problems/linked-list-cycle)
 - Medium | Remove Nth Node From End of List - [link](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
