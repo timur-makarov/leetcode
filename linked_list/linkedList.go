@@ -1,4 +1,4 @@
-package main
+package linked_list
 
 import (
 	"errors"
@@ -17,7 +17,7 @@ type LinkedList struct {
 	length uint64
 }
 
-func main() {
+func RunLinkedList() {
 	list := LinkedList{}
 
 	list.Push(2)
