@@ -25,8 +25,6 @@ func Test() bool {
 		cur = cur.Next
 	}
 
-	//cur.Next = head
-
 	return hasCycle(head) == false
 }
 

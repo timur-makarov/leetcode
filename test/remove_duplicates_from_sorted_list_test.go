@@ -5,8 +5,6 @@ import (
 	"testing"
 )
 
-type ListNode = remove_duplicates_from_sorted_list.ListNode
-
 func TestRemoveDuplicatesFromSortedList(t *testing.T) {
 	head := &ListNode{}
 
