@@ -5,4 +5,5 @@
 - Easy | Remove Duplicates from Sorted List
 - Medium | Remove Duplicates from Sorted List 2
 - Easy | Convert Binary Number in a Linked List to Integer
-- 
+- Medium | Partition List
+- Medium | Reverse Linked List II

@@ -1,9 +1,12 @@
 package main
 
 import (
+	"github.com/timur-makarov/leetcode/linked_list"
 	"github.com/timur-makarov/leetcode/remove_duplicates_from_sorted_list"
 	"testing"
 )
+
+type ListNode = linked_list.ListNode
 
 func TestRemoveDuplicatesFromSortedList(t *testing.T) {
 	head := &ListNode{}

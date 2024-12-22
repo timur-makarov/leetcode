@@ -3,10 +3,8 @@ package remove_duplicates_from_sorted_list
 import "github.com/timur-makarov/leetcode/linked_list"
 
 /*
-
 Given the head of a sorted linked list, delete all duplicates such that each element appears only once.
 Return the linked list sorted as well.
-
 */
 
 type ListNode = linked_list.ListNode

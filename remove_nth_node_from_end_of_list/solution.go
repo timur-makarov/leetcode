@@ -22,12 +22,12 @@ func Test() bool {
 
 	head.Next = &ListNode{0, nil}
 
-	returnedHead := removeNthFromEnd(head, 3)
+	returnedHead := runSolution(head, 3)
 
 	return returnedHead.Val == 0
 }
 
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
+func runSolution(head *ListNode, n int) *ListNode {
 	if head.Next == nil {
 		return nil
 	}
