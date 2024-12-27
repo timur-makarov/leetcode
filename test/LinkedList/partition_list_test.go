@@ -1,8 +1,8 @@
-package main
+package LinkedList
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/partition_list"
+	"github.com/timur-makarov/leetcode/LinkedList/partition_list"
 	"testing"
 )
 

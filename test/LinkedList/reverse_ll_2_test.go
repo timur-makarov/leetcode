@@ -1,8 +1,8 @@
-package main
+package LinkedList
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/reverse_ll_2"
+	"github.com/timur-makarov/leetcode/LinkedList/reverse_ll_2"
 	"testing"
 )
 

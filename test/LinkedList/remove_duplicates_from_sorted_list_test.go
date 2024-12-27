@@ -1,8 +1,8 @@
-package main
+package LinkedList
 
 import (
-	"github.com/timur-makarov/leetcode/linked_list"
-	"github.com/timur-makarov/leetcode/remove_duplicates_from_sorted_list"
+	"github.com/timur-makarov/leetcode/Implementations/linked_list"
+	remove_duplicates_from_sorted_list2 "github.com/timur-makarov/leetcode/LinkedList/remove_duplicates_from_sorted_list"
 	"testing"
 )
 
@@ -39,7 +39,7 @@ func TestRemoveDuplicatesFromSortedList(t *testing.T) {
 
 	t.Log(listAsSlice) // 0 1 2 3 3 5 6 6 8 9
 
-	returnedHead := remove_duplicates_from_sorted_list.RunSolution(head)
+	returnedHead := remove_duplicates_from_sorted_list2.RunSolution(head)
 
 	sieve := make(map[int]bool)
 
@@ -87,7 +87,7 @@ func TestRemoveDuplicatesFromSortedList2(t *testing.T) {
 
 	t.Log(listAsSlice) // 0 1 2 3 4 4 4 7 8 8 8 11 12
 
-	returnedHead := remove_duplicates_from_sorted_list.RunSolution2(head)
+	returnedHead := remove_duplicates_from_sorted_list2.RunSolution2(head)
 
 	sieve := make(map[int]bool)
 	sieve[4] = true

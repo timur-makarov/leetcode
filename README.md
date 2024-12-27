@@ -7,3 +7,6 @@
 - Easy | Convert Binary Number in a Linked List to Integer
 - Medium | Partition List
 - Medium | Reverse Linked List II
+- Medium | Minimum Size Subarray Sum
+- Medium | Longest Substring with K Distinct Characters
+- Medium | Longest Subarray of 1's After Deleting One Element

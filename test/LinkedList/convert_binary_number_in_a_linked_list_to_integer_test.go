@@ -1,8 +1,8 @@
-package main
+package LinkedList
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/convert_binary_number_in_a_linked_list_to_integer"
+	"github.com/timur-makarov/leetcode/LinkedList/convert_binary_number_in_a_linked_list_to_integer"
 	"testing"
 )
 

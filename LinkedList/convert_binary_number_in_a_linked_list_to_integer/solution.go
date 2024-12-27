@@ -1,7 +1,7 @@
 package convert_binary_number_in_a_linked_list_to_integer
 
 import (
-	"github.com/timur-makarov/leetcode/linked_list"
+	"github.com/timur-makarov/leetcode/Implementations/linked_list"
 )
 
 /*

@@ -1,7 +1,7 @@
 package partition_list
 
 import (
-	"github.com/timur-makarov/leetcode/linked_list"
+	"github.com/timur-makarov/leetcode/Implementations/linked_list"
 )
 
 /*
