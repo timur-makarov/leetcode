@@ -10,3 +10,9 @@
 - Medium | Minimum Size Subarray Sum
 - Medium | Longest Substring with K Distinct Characters
 - Medium | Longest Subarray of 1's After Deleting One Element
+- Medium | Permutation in String
+- Medium | 3Sum
+- Medium | Sort Colors
+- Medium | Shortest Unsorted Continuous Subarray
+- Medium | Merge Intervals
+- Medium | Intervals Intersection
