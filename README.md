@@ -1,4 +1,4 @@
-### Leetcode questions:
+### Solved leetcode problems:
 - Easy | Middle of the Linked List
 - Easy | Linked List Cycle
 - Medium | Remove Nth Node From End of List
@@ -16,3 +16,8 @@
 - Medium | Shortest Unsorted Continuous Subarray
 - Medium | Merge Intervals
 - Medium | Intervals Intersection
+- Medium | Non-Overlapping Intervals
+- Medium | Minimum Number of Arrows to Burst Balloons
+- Medium | Task Scheduler
+- Medium | Binary Tree Level Order Traversal II
+- Medium | All Nodes Distance K in Binary Tree

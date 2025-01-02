@@ -5,14 +5,14 @@ import (
 	"log"
 )
 
-type Node struct {
+type TreeNode struct {
 	Val   int
-	Left  *Node
-	Right *Node
+	Left  *TreeNode
+	Right *TreeNode
 }
 
 type Tree struct {
-	root *Node
+	Root *TreeNode
 }
 
 func RunTreeFunction() {
@@ -29,13 +29,13 @@ func RunTreeFunction() {
 	_ = tree.Insert(9)
 
 	log.Println("Does it contain 9?: ", tree.Contains(9))
-	log.Println("Does it contain 6?: ", tree.ContainsRecursive(6, tree.root))
+	log.Println("Does it contain 6?: ", tree.ContainsRecursive(6, tree.Root))
 
-	tree.root, _ = tree.InsertRecursive(12, tree.root)
-	log.Println("Does it contain 12?: ", tree.ContainsRecursive(12, tree.root))
+	tree.Root, _ = tree.InsertRecursive(12, tree.Root)
+	log.Println("Does it contain 12?: ", tree.ContainsRecursive(12, tree.Root))
 
-	tree.root = tree.RemoveRecursive(12, tree.root)
-	log.Println("Does it contain 12?: ", tree.ContainsRecursive(12, tree.root))
+	tree.Root = tree.RemoveRecursive(12, tree.Root)
+	log.Println("Does it contain 12?: ", tree.ContainsRecursive(12, tree.Root))
 
 	tree.PrintBF()
 	tree.PrintDFPre()
@@ -44,12 +44,12 @@ func RunTreeFunction() {
 }
 
 func (t *Tree) Insert(val int) error {
-	if t.root == nil {
-		t.root = &Node{Val: val}
+	if t.Root == nil {
+		t.Root = &TreeNode{Val: val}
 		return nil
 	}
 
-	cur := t.root
+	cur := t.Root
 
 	for {
 		if cur.Val == val {
@@ -58,7 +58,7 @@ func (t *Tree) Insert(val int) error {
 
 		if cur.Val > val {
 			if cur.Left == nil {
-				cur.Left = &Node{Val: val}
+				cur.Left = &TreeNode{Val: val}
 				break
 			}
 			cur = cur.Left
@@ -67,7 +67,7 @@ func (t *Tree) Insert(val int) error {
 
 		if cur.Val < val {
 			if cur.Right == nil {
-				cur.Right = &Node{Val: val}
+				cur.Right = &TreeNode{Val: val}
 				break
 			}
 			cur = cur.Right
@@ -79,11 +79,11 @@ func (t *Tree) Insert(val int) error {
 }
 
 func (t *Tree) Contains(val int) bool {
-	if t.root == nil {
+	if t.Root == nil {
 		return false
 	}
 
-	cur := t.root
+	cur := t.Root
 
 	for cur != nil {
 		if cur.Val == val {
@@ -100,7 +100,7 @@ func (t *Tree) Contains(val int) bool {
 	return false
 }
 
-func (t *Tree) ContainsRecursive(val int, node *Node) bool {
+func (t *Tree) ContainsRecursive(val int, node *TreeNode) bool {
 	if node == nil {
 		return false
 	}
@@ -116,11 +116,11 @@ func (t *Tree) ContainsRecursive(val int, node *Node) bool {
 	}
 }
 
-func (t *Tree) InsertRecursive(val int, node *Node) (*Node, error) {
+func (t *Tree) InsertRecursive(val int, node *TreeNode) (*TreeNode, error) {
 	var err error
 
 	if node == nil {
-		return &Node{Val: val}, nil
+		return &TreeNode{Val: val}, nil
 	}
 
 	if node.Val == val {
@@ -136,7 +136,7 @@ func (t *Tree) InsertRecursive(val int, node *Node) (*Node, error) {
 	return node, err
 }
 
-func (t *Tree) RemoveRecursive(val int, node *Node) *Node {
+func (t *Tree) RemoveRecursive(val int, node *TreeNode) *TreeNode {
 	if node == nil {
 		return node
 	}
@@ -165,7 +165,7 @@ func (t *Tree) RemoveRecursive(val int, node *Node) *Node {
 	return node
 }
 
-func (t *Tree) MinimalValue(node *Node) int {
+func (t *Tree) MinimalValue(node *TreeNode) int {
 	if node == nil {
 		return 0
 	}
@@ -178,10 +178,10 @@ func (t *Tree) MinimalValue(node *Node) int {
 }
 
 func (t *Tree) PrintBF() {
-	var queue []*Node
+	var queue []*TreeNode
 	var results []int
 
-	cur := t.root
+	cur := t.Root
 
 	queue = append(queue, cur)
 
@@ -203,18 +203,18 @@ func (t *Tree) PrintBF() {
 }
 
 func (t *Tree) PrintDFPre() {
-	log.Println(t.TraversePre(t.root))
+	log.Println(t.TraversePre(t.Root))
 }
 
 func (t *Tree) PrintDFPost() {
-	log.Println(t.TraversePost(t.root))
+	log.Println(t.TraversePost(t.Root))
 }
 
 func (t *Tree) PrintDFIn() {
-	log.Println(t.TraverseIn(t.root))
+	log.Println(t.TraverseIn(t.Root))
 }
 
-func (t *Tree) TraversePre(node *Node) []int {
+func (t *Tree) TraversePre(node *TreeNode) []int {
 	if node == nil {
 		return nil
 	}
@@ -232,7 +232,7 @@ func (t *Tree) TraversePre(node *Node) []int {
 	return results
 }
 
-func (t *Tree) TraversePost(node *Node) []int {
+func (t *Tree) TraversePost(node *TreeNode) []int {
 	if node == nil {
 		return nil
 	}
@@ -252,7 +252,7 @@ func (t *Tree) TraversePost(node *Node) []int {
 	return results
 }
 
-func (t *Tree) TraverseIn(node *Node) []int {
+func (t *Tree) TraverseIn(node *TreeNode) []int {
 	if node == nil {
 		return nil
 	}
