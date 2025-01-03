@@ -1,3 +1,5 @@
+Almost all solved problems are unique enough to keep solving interesting.
+
 ### Solved leetcode problems:
 - Easy | Middle of the Linked List
 - Easy | Linked List Cycle
@@ -21,3 +23,7 @@
 - Medium | Task Scheduler
 - Medium | Binary Tree Level Order Traversal II
 - Medium | All Nodes Distance K in Binary Tree
+- Medium | Path Sum II
+- Medium | Path Sum III
+- Easy | Diameter of Binary Tree
+- Hard | Binary Tree Maximum Path Sum

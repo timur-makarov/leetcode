@@ -28,7 +28,7 @@ func RunSolution(nums []int) [][]int {
 					wStart++
 				}
 
-				for wEnd < wEnd && nums[wEnd] == nums[wEnd+1] {
+				for wStart < wEnd && nums[wEnd] == nums[wEnd+1] {
 					wEnd--
 				}
 			} else if targetSum > sum {
