@@ -22,7 +22,7 @@ func traverse_recursive(node *TreeNode) int {
 	leftHeight := traverse_recursive(node.Left)
 	rightHeight := traverse_recursive(node.Right)
 
-	result = max(result, leftHeight+rightHeight)
+	result = max(result, leftHeight+rightHeight+1)
 
 	return max(leftHeight, rightHeight) + 1
 }

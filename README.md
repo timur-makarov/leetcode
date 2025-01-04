@@ -1,4 +1,11 @@
 Almost all solved problems are unique enough to keep solving interesting.
+First 100 problems are solved (or will be) in no particular order (yet), as an exploration of different topics and patterns.
+Then problems are taken (or will be) from:
+- Neetcode 150
+- Top Interview 150
+- Top 100 Liked
+- SQL 50
+
 
 ### Solved leetcode problems:
 - Easy | Middle of the Linked List
@@ -27,3 +34,8 @@ Almost all solved problems are unique enough to keep solving interesting.
 - Medium | Path Sum III
 - Easy | Diameter of Binary Tree
 - Hard | Binary Tree Maximum Path Sum
+- Medium | Validate Binary Search Tree
+- Medium | Maximum Binary Tree
+- Hard | Find Median from Data Stream
+- Hard | Sliding Window Median
+- 
