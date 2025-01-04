@@ -1,5 +1,5 @@
-Almost all solved problems are unique enough to keep solving interesting.
-First 100 problems are solved (or will be) in no particular order (yet), as an exploration of different topics and patterns.
+Almost all solved problems are unique enough to keep solving interesting. \
+First 100 problems are solved (or will be) in no particular order (yet), as an exploration of different topics and patterns. \
 Then problems are taken (or will be) from:
 - Neetcode 150
 - Top Interview 150
