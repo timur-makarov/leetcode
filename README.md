@@ -1,5 +1,5 @@
 Almost all solved problems are unique enough to keep solving interesting. \
-First 100 problems are solved (or will be) in no particular order (yet), as an exploration of different topics and patterns. \
+First 100 problems are solved (or will be) in no particular order, as an exploration of different topics and patterns. \
 Then problems are taken (or will be) from:
 - Neetcode 150
 - Top Interview 150
@@ -38,4 +38,10 @@ Then problems are taken (or will be) from:
 - Medium | Maximum Binary Tree
 - Hard | Find Median from Data Stream
 - Hard | Sliding Window Median
+- Medium | Subsets
+- Medium | Subsets II
+- Medium | Permutations
+- Medium | Letter Case Permutation
+- Medium | Generalized Abbreviations
+- Hard | Basic Calculator
 - 
