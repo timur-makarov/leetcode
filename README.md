@@ -44,4 +44,13 @@ Then problems are taken (or will be) from:
 - Medium | Letter Case Permutation
 - Medium | Generalized Abbreviations
 - Hard | Basic Calculator
-- 
+- Medium | Unique Binary Search Trees
+- Medium | Search in Rotated Sorted Array
+- Easy | Single Number
+- Medium | Single Number II
+- Medium | Single Number III
+- Easy | Complement of Base 10 Integer
+- Medium | K Closest Points to Origin
+- Medium | Kth Largest Element in an Array (Leetcode IDE)
+- Medium | Top K Frequent Elements
+- Medium | Sort Characters By Frequency (Leetcode IDE)
