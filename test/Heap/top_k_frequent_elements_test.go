@@ -1,4 +1,4 @@
-package Array
+package Heap
 
 import (
 	"github.com/stretchr/testify/assert"

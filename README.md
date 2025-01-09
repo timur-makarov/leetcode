@@ -54,3 +54,8 @@ Then problems are taken (or will be) from:
 - Medium | Kth Largest Element in an Array (Leetcode IDE)
 - Medium | Top K Frequent Elements
 - Medium | Sort Characters By Frequency (Leetcode IDE)
+- Medium | Find K Closest Elements
+- Hard | Maximum Frequency Stack
+- Medium | Maximum Number of Distinct Elements After Operations
+- Medium | Reorganize String
+- Medium | Kth Smallest Element in a BST
