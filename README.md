@@ -59,3 +59,7 @@ Then problems are taken (or will be) from:
 - Medium | Maximum Number of Distinct Elements After Operations
 - Medium | Reorganize String
 - Medium | Kth Smallest Element in a BST
+- Head | Merge k Sorted Lists
+- Medium | Kth Smallest Element in a Sorted Matrix
+- Hard | Smallest Range Covering Elements from K Lists
+- Medium | Find K Pairs with Smallest Sums
