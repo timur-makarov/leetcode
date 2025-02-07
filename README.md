@@ -63,3 +63,5 @@ Then problems are taken (or will be) from:
 - Medium | Kth Smallest Element in a Sorted Matrix
 - Hard | Smallest Range Covering Elements from K Lists
 - Medium | Find K Pairs with Smallest Sums
+- Medium | Partition Equal Subset Sum
+- Hard | Partition Array Into Two Arrays to Minimize Sum Difference
