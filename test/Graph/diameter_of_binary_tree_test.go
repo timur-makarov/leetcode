@@ -1,9 +1,10 @@
-package Tree
+package Graph
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/Tree/diameter_of_binary_tree"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/timur-makarov/leetcode/Graph/diameter_of_binary_tree"
 )
 
 func TestDiameterOfBinaryTree(t *testing.T) {

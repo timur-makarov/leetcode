@@ -1,9 +1,10 @@
-package Tree
+package Graph
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/Tree/binary_tree_maximum_path_sum"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/timur-makarov/leetcode/Graph/binary_tree_maximum_path_sum"
 )
 
 func TestBinaryTreeMaximumPathSum(t *testing.T) {

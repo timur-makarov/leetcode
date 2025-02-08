@@ -1,9 +1,10 @@
-package Tree
+package Graph
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/Tree/validate_binary_search_tree"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/timur-makarov/leetcode/Graph/validate_binary_search_tree"
 )
 
 func TestValidateBinarySearchTree(t *testing.T) {

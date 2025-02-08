@@ -1,9 +1,10 @@
-package Tree
+package Graph
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/Tree/path_sum_ii"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/timur-makarov/leetcode/Graph/path_sum_ii"
 )
 
 func TestPathSumII(t *testing.T) {

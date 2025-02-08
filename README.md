@@ -3,11 +3,13 @@ First 100 problems are solved (or will be) in no particular order, as an explora
 Then problems are taken (or will be) from:
 - Neetcode 150
 - Top Interview 150
+- Premium Algo 100
 - Top 100 Liked
 - SQL 50
 
+https://leetcode.com/u/timur-makarov
 
-### Solved leetcode problems:
+### Solved Leetcode problems:
 - Easy | Middle of the Linked List
 - Easy | Linked List Cycle
 - Medium | Remove Nth Node From End of List
@@ -63,5 +65,15 @@ Then problems are taken (or will be) from:
 - Medium | Kth Smallest Element in a Sorted Matrix
 - Hard | Smallest Range Covering Elements from K Lists
 - Medium | Find K Pairs with Smallest Sums
+- 0/1 Knapsack
 - Medium | Partition Equal Subset Sum
-- Hard | Partition Array Into Two Arrays to Minimize Sum Difference
+- Medium | Course Schedule
+- Medium | Course Schedule II
+- Medium | Minimum Height Trees \
+**Moved to Leetcode IDE due to Premium subscription**
+- Easy | Two Sum
+- Easy | Missing Numbers
+- Easy | Valid Parentheses
+- Easy | Merge Two Sorted Lists
+- Easy | Subtree of Another Tree
+- Easy | Reverse Bits

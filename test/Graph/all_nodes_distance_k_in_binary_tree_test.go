@@ -1,9 +1,10 @@
-package Tree
+package Graph
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/Tree/all_nodes_distance_k_in_binary_tree"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/timur-makarov/leetcode/Graph/all_nodes_distance_k_in_binary_tree"
 )
 
 func TestAllNodesDistanceKinBinaryTree(t *testing.T) {

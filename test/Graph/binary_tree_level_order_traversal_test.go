@@ -1,10 +1,11 @@
-package Tree
+package Graph
 
 import (
-	"github.com/stretchr/testify/assert"
-	"github.com/timur-makarov/leetcode/Implementations/tree"
-	"github.com/timur-makarov/leetcode/Tree/binary_tree_level_order_traversal"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/timur-makarov/leetcode/Graph/binary_tree_level_order_traversal"
+	"github.com/timur-makarov/leetcode/Implementations/tree"
 )
 
 type Tree = tree.Tree
