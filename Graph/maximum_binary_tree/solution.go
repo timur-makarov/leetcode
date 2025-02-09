@@ -12,7 +12,7 @@ func RunSolution(nums []int) *TreeNode {
 
 		for len(stack) != 0 && node.Val > stack[len(stack)-1].Val {
 			node.Left = stack[len(stack)-1]
-			stack = append([]*TreeNode{}, stack[0:len(stack)-1]...)
+			stack = stack[0 : len(stack)-1]
 		}
 
 		if len(stack) != 0 {

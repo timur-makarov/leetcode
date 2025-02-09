@@ -76,4 +76,10 @@ https://leetcode.com/u/timur-makarov
 - Easy | Valid Parentheses
 - Easy | Merge Two Sorted Lists
 - Easy | Subtree of Another Tree
-- Easy | Reverse Bits
+- Easy | Climbing Stairs
+- Medium | Longest Palindromic Substring
+- Medium | Container With Most Water
+- Medium | Combination Sum
+- Medium | Rotate Image
+- Medium | Group Anagrams
+- Medium | Maximum Subarray
