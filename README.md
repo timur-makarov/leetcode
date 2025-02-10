@@ -80,6 +80,10 @@ https://leetcode.com/u/timur-makarov
 - Medium | Longest Palindromic Substring
 - Medium | Container With Most Water
 - Medium | Combination Sum
-- Medium | Rotate Image
 - Medium | Group Anagrams
 - Medium | Maximum Subarray
+- Medium | Jump Game
+- Medium | Unique Paths
+- Medium | Word Search
+- Medium | Decode Ways
+- Medium | Binary Tree Level Order Traversal
