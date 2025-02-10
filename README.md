@@ -87,3 +87,7 @@ https://leetcode.com/u/timur-makarov
 - Medium | Word Search
 - Medium | Decode Ways
 - Medium | Binary Tree Level Order Traversal
+- Easy | Reverse Linked List
+- Easy | Best Time to Buy and Sell Stock
+- Easy | Maximum Depth of Binary Tree
+- Easy | Same Tree
