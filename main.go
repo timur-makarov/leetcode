@@ -1,32 +1,38 @@
 package main
 
+import "log"
+
 func main() {
 	//sorts.RunSortFunctions()
+
+	s := "applepenapple"
+	wordDict := []string{"apple", "pen"}
+	log.Println(wordBreak(s, wordDict))
+
+	s = "catsandog"
+	wordDict = []string{"cats", "dog", "sand", "and", "cat"}
+	log.Println(wordBreak(s, wordDict))
+
+	s = "aaaaaaa"
+	wordDict = []string{"aaaa", "aaa"}
+	log.Println(wordBreak(s, wordDict))
 }
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+func wordBreak(s string, wordDict []string) bool {
+	memo := make([]bool, len(s)+1)
+	memo[0] = true
 
-func isSameTree(p *TreeNode, q *TreeNode) bool {
-	var dfs func(*TreeNode, *TreeNode) bool
-	dfs = func(node1, node2 *TreeNode) bool {
-		if node1 != node2 && (node1 == nil || node2 == nil) {
-			return false
+	for i := 1; i <= len(s); i++ {
+		for _, word := range wordDict {
+			if i >= len(word) {
+				checkLength := memo[i-len(word)]
+				currentSub := s[i-len(word) : i]
+				if checkLength && currentSub == word {
+					memo[i] = true
+				}
+			}
 		}
-
-		if node1 == nil {
-			return true
-		}
-
-		if node1.Val != node2.Val {
-			return false
-		}
-
-		return dfs(node1.Left, node2.Left) && dfs(node1.Right, node2.Right)
 	}
 
-	return dfs(p, q)
+	return memo[len(s)]
 }

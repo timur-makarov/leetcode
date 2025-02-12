@@ -91,3 +91,7 @@ https://leetcode.com/u/timur-makarov
 - Easy | Best Time to Buy and Sell Stock
 - Easy | Maximum Depth of Binary Tree
 - Easy | Same Tree
+- Easy | Valid Palindrome
+- Medium | Longest Consecutive Sequence
+- Medium | Clone Graph
+- Medium | Word Break
