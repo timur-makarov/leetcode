@@ -1,6 +1,6 @@
 Almost all solved problems are unique enough to keep solving interesting. \
-First 100 problems are solved (or will be) in no particular order, as an exploration of different topics and patterns. \
-Then problems are taken (or will be) from:
+First 50-60 problems are solved in no particular order, as an exploration of different topics and patterns. \
+Then problems are taken from:
 - Neetcode 150
 - Top Interview 150
 - Premium Algo 100
@@ -100,3 +100,9 @@ https://leetcode.com/u/timur-makarov
 - Easy | Invert Binary Tree
 - Easy | Contains Duplicate
 - Easy | Valid Anagram
+- Medium | Reorder List
+- Medium | Maximum Product Subarray
+- Medium | Find Minimum in Rotated Sorted Array
+- Medium | Number of Islands
+- Medium | Product of Array Except Self
+- Medium | Longest Increasing Subsequence
