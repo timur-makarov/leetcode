@@ -95,3 +95,8 @@ https://leetcode.com/u/timur-makarov
 - Medium | Longest Consecutive Sequence
 - Medium | Clone Graph
 - Medium | Word Break
+- Medium | House Robber
+- Medium | House Robber II
+- Easy | Invert Binary Tree
+- Easy | Contains Duplicate
+- Easy | Valid Anagram
