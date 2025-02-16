@@ -106,3 +106,8 @@ https://leetcode.com/u/timur-makarov
 - Medium | Number of Islands
 - Medium | Product of Array Except Self
 - Medium | Longest Increasing Subsequence
+- Medium | Minimum Window Substring
+- Medium | Coin Change
+- Medium | Longest Repeating Character Replacement
+- Medium | Palindromic Substring
+- Medium | Longest Common Subsequence
