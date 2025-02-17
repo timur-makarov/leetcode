@@ -111,3 +111,8 @@ https://leetcode.com/u/timur-makarov
 - Medium | Longest Repeating Character Replacement
 - Medium | Palindromic Substring
 - Medium | Longest Common Subsequence
+- Medium | Construct Binary Tree from Preorder and Inorder Traversal
+- Medium | Serialize and Deserialize BST
+- Medium | Implement Trie
+- Medium | Design Add and Search Words Data Structure
+- Medium | Word Search II
