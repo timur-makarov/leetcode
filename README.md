@@ -116,3 +116,7 @@ https://leetcode.com/u/timur-makarov
 - Medium | Implement Trie
 - Medium | Design Add and Search Words Data Structure
 - Medium | Word Search II
+- Medium | Pacific Atlantic Water Flow
+- Medium | Lowest Common Ancestor of a Binary Search Tree
+- Medium | Lowest Common Ancestor of a Binary Tree
+- 
