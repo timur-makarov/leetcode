@@ -119,4 +119,10 @@ https://leetcode.com/u/timur-makarov
 - Medium | Pacific Atlantic Water Flow
 - Medium | Lowest Common Ancestor of a Binary Search Tree
 - Medium | Lowest Common Ancestor of a Binary Tree
+- Easy | Plus One
+- Easy | Balanced Binary Tree
+- Easy | Binary Search
+- Medium | Count Good Nodes in Binary Tree
+- Medium | Combination Sum II
+- Medium | Generate Parentheses
 - 
