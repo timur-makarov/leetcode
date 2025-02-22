@@ -125,4 +125,9 @@ https://leetcode.com/u/timur-makarov
 - Medium | Count Good Nodes in Binary Tree
 - Medium | Combination Sum II
 - Medium | Generate Parentheses
-- 
+- Easy | Merge Sorted Array
+- Easy | Remove Element
+- Easy | Remove Duplicates from Sorted Array
+- Medium | Remove Duplicates from Sorted Array II
+- Easy | Majority Element
+- Medium | Best Time to Buy and Sell Stock II
